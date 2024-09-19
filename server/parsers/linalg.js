@@ -35,6 +35,9 @@ function getLastDateFromString(inputString) {
     return lastDate.setDate(lastDate.getDate() + 6);
 }
 
+/*
+need to fix parsing logic, currently we return the lecture plan instead of the exercises
+*/
 export default async function parse() {
     const baseUrl = "https://ti.inf.ethz.ch/ew/courses/LA24/index.html";
     const res = await fetch(baseUrl)

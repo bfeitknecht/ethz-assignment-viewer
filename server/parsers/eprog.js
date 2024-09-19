@@ -26,6 +26,10 @@ function extractDateFromString(inputString) {
 
 /*
 need to log in to access the new website!!
+new website is:
+https://lec.inf.ethz.ch/infk/eprog/2024/
+
+use puppeteer and vercel secrets to log in when prompted
 */
 
 export default async function parse() {

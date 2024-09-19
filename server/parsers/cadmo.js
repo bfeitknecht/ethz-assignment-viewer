@@ -3,6 +3,9 @@
 import * as cheerio from "cheerio";
 import url from "url";
 
+/*
+sleepy cadmo
+*/
 export default async function parse() {
     const lectureStart = new Date(new Date().getFullYear(), 8, 25);
 
