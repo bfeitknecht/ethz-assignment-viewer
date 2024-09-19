@@ -36,7 +36,7 @@ function getLastDateFromString(inputString) {
 }
 
 export default async function parse() {
-    const baseUrl = "https://ti.inf.ethz.ch/ew/courses/LA23/index.html";
+    const baseUrl = "https://ti.inf.ethz.ch/ew/courses/LA24/index.html";
     const res = await fetch(baseUrl)
 
     if (!res.ok) {

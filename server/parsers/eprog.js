@@ -24,6 +24,10 @@ function extractDateFromString(inputString) {
   return null;
 }
 
+/*
+need to log in to access the new website!!
+*/
+
 export default async function parse() {
     const baseUrl = "https://www.lst.inf.ethz.ch/education/einfuehrung-in-die-programmierung-i--252-0027-1/_jcr_content/par/accordion/accordionitem_753370236/par/table.tableComp.json";
     const website = "https://www.lst.inf.ethz.ch/education/einfuehrung-in-die-programmierung-i--252-0027-1.html"
